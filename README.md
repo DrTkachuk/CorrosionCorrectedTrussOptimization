@@ -43,38 +43,41 @@ II. Preparation
 III. Example definitions
 
 Example 1
-  E1.1:: volume_min_given_compl_2D_17_truss_Ascaled_SingleLoad.m
-  (case 0,1,2 depending on values defined == FW, used in figure 6)
-  E1.2:: volume_min_given_compl_2D_17_truss_fixed_aspect_ratio.m
-  (case 3,4 == FAR, used in figure 6 and 7)
-  E1.3:: volume_min_given_compl_2D_17_truss_Ascaled_SW.m
-  (case 5,6 == FW + self-weight, used in figure 9)
+    E1.1:: volume_min_given_compl_2D_17_truss_Ascaled_SingleLoad.m
+    (case 0,1,2 depending on values defined == FW, used in figure 6)
+    E1.2:: volume_min_given_compl_2D_17_truss_fixed_aspect_ratio.m
+    (case 3,4 == FAR, used in figure 6 and 7)
+    E1.3:: volume_min_given_compl_2D_17_truss_Ascaled_SW.m
+    (case 5,6 == FW + self-weight, used in figure 9)
 
 Example 2
 
-  E2.1:: volume_min_given_compl_2D_33_truss_Ascaled3.m
-  (case 1, used in figure 10 middle and right)
-  E2.2:: volume_min_given_compl_2D_33_truss_fixed_aspect_ratio.m
-  (case 2,3,4)
+    E2.1:: volume_min_given_compl_2D_33_truss_Ascaled3.m
+    (case 1, used in figure 10 middle and right)
+    E2.2:: volume_min_given_compl_2D_33_truss_fixed_aspect_ratio.m
+    (case 2,3,4)
 
 Example 3
-
-  E3:: volume_min_given_compl_2D_30x30_truss_Cell60cm_MultLoad.m
-  (used in figure 12)
   
-  another file is given just to show computational time for smaller problem sizes
-  volume_min_given_compl_2D_20x20_truss_GridStep60_MultLoad.m
+    E3:: volume_min_given_compl_2D_30x30_truss_Cell60cm_MultLoad.m
+    (used in figure 12)
+    
+    another file is given just to show computational time for smaller problem sizes
+    volume_min_given_compl_2D_20x20_truss_GridStep60_MultLoad.m
 
 IV. Visualization and checking
 
     Ploting results with and without colormap
     
-    V1:: Truss_thickness_plot2D.m
-    V2:: Truss_thickness_plot2D_colormap.m
+      V1:: Truss_thickness_plot2D.m
+      V2:: Truss_thickness_plot2D_colormap.m
     
-    V3:: degradation_compliance_over_time_17_truss.m
-    (used in Figue 8)
+      V3:: degradation_compliance_over_time_17_truss.m
+      (used in Figue 8)
     
-    V1:: SDTruss2D_AssembleBuckl.m
-    (computes stress in each element for given force vector + checks the local buckling conditions)
+      V4:: SDTruss2D_AssembleBuckl.m
+      (computes stress in each element for given force vector + checks the local buckling conditions, used in examples 1 and 3)
+
+      V5:: SSAB_Weathering_Tube_355WH.m
+      (visualization of the heavy and light sections from SSAB data)
 
