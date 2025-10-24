@@ -43,6 +43,7 @@ II. Preparation
 III. Example definitions
 
 Example 1
+
     E1.1:: volume_min_given_compl_2D_17_truss_Ascaled_SingleLoad.m
     (case 0,1,2 depending on values defined == FW, used in figure 6)
     E1.2:: volume_min_given_compl_2D_17_truss_fixed_aspect_ratio.m
